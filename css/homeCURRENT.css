@@ -1,0 +1,230 @@
+#navi {
+    background-color:#F6FFE5 !important; 
+  }
+  
+  .nav-link {
+    color: #ff0303;
+  }
+  .nav-link:hover {
+    color: #FF7BAC;
+  }
+  .home {
+    margin-left: 20%;
+  }
+
+  .nav-item {
+    font-family: "Paralucent Condensed", sans-serif;
+    font-style: italic;
+    font-weight:lighter;
+    font-size: 18px;
+    /* identical to box height, or 62% */
+    letter-spacing: 0.05em; 
+  }
+
+  .homepagelogo {
+padding-right: 30px;
+  }
+
+  .rotating-border {
+    width: max-content;
+    background: linear-gradient(90deg, rgb(246,255,229,1) 50%, transparent 50%), linear-gradient(90deg, rgb(246,255,229,1) 50%, transparent 50%), linear-gradient(0deg, rgb(246,255,229,1) 50%, transparent 50%), linear-gradient(0deg, rgb(246,255,229,1) 50%, transparent 50%);
+    background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+    background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+    padding: 15px;
+    animation: border-dance 8s infinite linear;
+    font-family: "Paralucent Condensed", sans-serif;
+    font-style: italic;
+    font-size: 20px;
+  }
+  
+  @keyframes border-dance {
+    0% {
+      background-position: 0 0, 100% 100%, 0 100%, 100% 0;
+    }
+    100% {
+      background-position: 100% 0, 0 100%, 0 0, 100% 100%;
+    }
+  }
+  
+  
+
+  
+  .h1 {
+    font-family: "Paralucent Condensed", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 30px;
+    /* identical to box height, or 62% */
+    letter-spacing: 0.05em;
+    color: #2A2A2A;
+    }
+
+      /* identical to box height, or 62% */
+  .jumbotron {
+    background-image: url(https://s3-alpha-sig.figma.com/img/72e4/99db/440518ab1be5789d4c2315d8164154e5?Expires=1644796800&Signature=CyGHtZHO7Pc9f8g36BhuVVoAuGpZba0AzyBRB-nbHUWRa0MDNXmG2iMTmy4Dk79SeADbatIm-G6JgyDooVezoafzHxx88fOEP5awDJPKe4v~QEUCglb~szE7JZ6ELu1MUQjsahCAa81hq8Psjwdq9tZRCdujKmuH~gZBqGqAA77xBIytsowwinyLLtoAPLCgHjYd5e3DMEuxmJqUrfNnsYDPD~vc~eZ5SA2eDsHJIymC6y3fl7jYHFZR3LITK7wYzYC9HWY6ZXB1Y0YLU-GVeTheF0t3amK3lReX4jAs~tcaG-QWMTC-vfqojo1Tyci8f8gJlsrfItBjHm4Sf8hSNg__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+.h1jumbo {
+    font-family: "Paralucent Condensed", sans-serif;
+    font-style: italic;
+    font-size: 48px;
+    line-height: 68px;
+    font-size: 55px;
+    box-align: left;
+    color:white;
+    padding-top: 75px;
+    padding-right: 400px;
+    padding-bottom: 100px;
+}
+
+  .homepagelogo {
+    max-height: 50px;
+    background-color: #F6FFE5;
+  }
+
+
+  h2 {
+    font-family: "Paralucent Condensed", sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 30px;
+    /* identical to box height, or 83% */
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #2A2A2A;
+  }
+  
+  h3 {
+    font-family: "Paralucent Condensed", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 45px;
+  /* identical to box height, or 187% */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  }
+  
+  h4 {
+  font-family: "Paralucent Condensed", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 45px;
+  /* identical to box height, or 250% */
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #FF7BAC;
+  }
+  
+  h5 {
+  font-family: "Paralucent Condensed", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height, or 125% */
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.02em;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  line-height: 40px;
+  }
+  
+  h6 {
+  font-family: "Ganache", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 85px;
+  /* identical to box height, or 142% */
+  color: #FF0303;
+  }
+  
+  h7
+   {
+  font-family: "Paralucent Condensed", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 35px;
+  /* identical to box height, or 125% */
+  color: #FF7BAC;
+  }
+  
+  
+  .footer-distributed {
+    background-color: #F6FFE5;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+  
+    padding: 30px 20px;
+    margin-top: 0px;
+  }
+  
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+  }
+  
+  /* Footer left */
+  
+  .footer-distributed .footer-left {
+    width: 40%;
+  }
+  
+
+  /* Footer Right */
+  
+  
+  .footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    border-radius: 2px;
+  
+    font-size: 20px;
+    color: #ff0303;
+    text-align: center;
+    line-height: 35px;
+  
+    margin-right: 3px;
+    margin-bottom: 5px;
+  }
+  
+  /* If you don't want the footer to be responsive, remove these media queries */
+  
+  @media (max-width: 880px) {
+    .footer-distributed {
+      font: bold 14px sans-serif;
+    }
+  
+    .footer-distributed .footer-left,
+    .footer-distributed .footer-center,
+    .footer-distributed .footer-right {
+      display: block;
+      width: 100%;
+      margin-bottom: 40px;
+      text-align: center;
+    }
+  
+    .footer-distributed .footer-center i {
+      margin-left: 0;
+    }
+  }
+  
+
+  

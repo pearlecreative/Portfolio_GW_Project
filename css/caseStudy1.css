@@ -1,0 +1,239 @@
+
+#navi {
+    background-color:#F6FFE5 !important; 
+  }
+  .nav-link {
+    color: #ff0303;
+  }
+  .nav-link:hover {
+    color: #FF7BAC;
+  }
+  
+  .homepagelogo {
+    max-height: 60px;
+  }
+
+  .cseatmelogo
+  { max-height: 100px;
+    padding-left: 600px; 
+  }
+  
+  #headereatmetop {
+    color: #FF7BAC;
+  }
+
+  .nav-item {
+    font-family: "Paralucent Condensed", sans-serif;
+    font-style: italic;
+    font-weight:lighter;
+    font-size: 18px;
+    /* identical to box height, or 62% */
+    letter-spacing: 0.05em; 
+  }
+
+  .homepagelogo {
+padding-right: 30px;
+  }
+
+
+h9 {
+    font-family: "paralucent-condensed", sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 45px;
+    /* identical to box height, or 70% */
+    color: #000000;
+    }
+     .h9light {
+    color: seashell;
+    }
+
+h8 {
+    font-family: paralucent-condensed, sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    letter-spacing: 5%;
+    font-size: 150%;
+}
+.h8light {
+    color: seashell;
+}
+
+h1 {
+font-family: "Paralucent Condensed", sans-serif;
+font-style: italic;
+font-weight: bold;
+font-size: 48px;
+line-height: 30px;
+/* identical to box height, or 62% */
+letter-spacing: 0.05em;
+color: #2A2A2A; }
+
+h2 {
+  font-family: "Paralucent Condensed", sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 30px;
+  /* identical to box height, or 83% */
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #2A2A2A;
+}
+
+h3 {
+  font-family: "Paralucent Condensed", sans-serif;
+font-style: italic;
+font-weight: 500;
+font-size: 24px;
+line-height: 45px;
+/* identical to box height, or 187% */
+letter-spacing: 0.05em;
+text-transform: uppercase;
+}
+
+h4 {
+font-family: "Paralucent Condensed", sans-serif;
+font-style: italic;
+font-weight: 300;
+font-size: 18px;
+line-height: 45px;
+/* identical to box height, or 250% */
+letter-spacing: 0.05em;
+text-transform: uppercase;
+color: #FF7BAC;
+}
+
+h5 {
+font-family: "Paralucent Condensed", sans-serif;
+font-style: italic;
+font-weight: 300;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+display: flex;
+align-items: center;
+letter-spacing: 0.02em;
+padding-top: 30px;
+padding-bottom: 30px;
+line-height: 40px;
+}
+
+h6 {
+font-family: "Ganache", sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 60px;
+line-height: 85px;
+/* identical to box height, or 142% */
+color: #FF0303;
+}
+
+h7 {
+font-family: "Paralucent Condensed", sans-serif;
+font-style: italic;
+font-weight: 500;
+font-size: 28px;
+line-height: 35px;
+/* identical to box height, or 125% */
+color: #FF7BAC;
+}
+
+.h2option2
+{
+  font-family: "Paralucent Condensed", sans-serif;
+  font-style: italic;
+  font-weight: 500;
+  align-items: left !important;
+  display: flex;
+  padding-left: 120px;
+  font-size: 28px;
+  line-height: 35px;
+  color: #ED806D !important;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.line2 {
+ display: block;
+ margin-top: 0.5em;
+ margin-bottom: 0.5em;
+ margin-left: 120px;
+ margin-right: 120px;
+ border-style: inset;
+ border-width: 1px;
+ border-color: #ED806D;
+}
+
+.footer-distributed {
+  background-color: #F6FFE5;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: bold 16px sans-serif;
+
+  padding: 30px 20px;
+  margin-top: 0px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right {
+  display: inline-block;
+  vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+  width: 40%;
+}
+
+
+/* Footer Right */
+
+
+.footer-distributed .footer-icons a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ff0303;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+  .footer-distributed {
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i {
+    margin-left: 0;
+  }
+}
+
+
